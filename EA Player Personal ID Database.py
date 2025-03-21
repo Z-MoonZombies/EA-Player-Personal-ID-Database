@@ -45,8 +45,12 @@ def main():
             break
         
         # Check if input exists in the responses dictionary
-        if user_input in responses:
+     if user_input in responses:
             print(f"Personal ID:{responses[user_input]}")
+     if user_input in "shoushou1106":
+            print(f"He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
+     if user_input in "shoushou1107":
+            print(f"He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
         else:
             print(f"The player does not exist: {user_input}")
 
