@@ -48,7 +48,7 @@ def main():
         if user_input in responses:
             print(f"Personal ID:{responses[user_input]}")
         else:
-            print(f"Your input is: {user_input}")
+            print(f"The player does not exist: {user_input}")
 
 if __name__ == "__main__":
     main()
