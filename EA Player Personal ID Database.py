@@ -1,6 +1,6 @@
 def main():
     # Dictionary mapping user inputs to their respective responses
-    responses = {
+    responses1 = {
         "NQZ21": "1008326962781",
         "GT800M": "1007371140128",
         "ID_M_IDK_4": "1007626131024",
@@ -34,23 +34,34 @@ def main():
         "shoushou1107": "1007264158402",
         "EyjaAlcremieCake": "1006692340632"
     }
-    
+
+    responses2 = {
+    "NQZ21": "ID number: 210106201002240336 Name: Zhou Yuze",
+    "MinecraftLionxX": "Real name: Liu Ruoyu Mobile phone number: 13836053660 Company name: Harbin World Department Store Shufang Knitting Children's Wear Boutique"
+    }
+
     while True:
         # Prompt the user for input
-        user_input = input("Please enter player id (type 'exit' to quit): ")
-        
+        user_input = input("Please enter player ID (type 'exit' to quit): ")
+
         # Exit condition
         if user_input.lower() == 'exit':
             print("Program exited.")
             break
-        
-        # Check if input exists in the responses dictionary
-     if user_input in responses:
-            print(f"Personal ID:{responses[user_input]}")
-     if user_input in "shoushou1106":
-            print(f"He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
-     if user_input in "shoushou1107":
-            print(f"He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
+
+        # Check if input exists in responses1 dictionary
+        if user_input in responses1:
+            print(f"Personal ID: {responses1[user_input]}")
+
+        # Check if input exists in responses2 dictionary
+        if user_input in responses2:
+            print(f"More information: {responses2[user_input]}")
+
+        # Special case for specific users
+        elif user_input == "shoushou1106" or user_input == "shoushou1107":
+            print("He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
+
+        # If the player is not found
         else:
             print(f"The player does not exist: {user_input}")
 
