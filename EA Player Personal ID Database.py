@@ -43,7 +43,8 @@ def main():
     "Dengisback": "Mobile phone number: 18701806469 ID card: 310113200508162411 Gender: Male Name: Deng Shuai",
     "CORROME": "Mobile phone number: 15966777230",
     "ID_M_GOAT": "Mobile phone number: 13926000527 Mother: Shu Hongbin Mobile phone: 13926000527 ID: 310102196704024448 Address: Room 907, Taole Building, No. 12, Dashatou 2nd Road, Dongshan District, Guangzhou",
-    "Z-MoonCake": "Mobile phone number: 15143605298 Name: Yu Anghan ID number: 220802200706261813"
+    "Z-MoonCake": "Mobile phone number: 15143605298 Name: Yu Anghan ID number: 220802200706261813",
+    "PingsQAQ": "Mobile phone number:17768616034"
    }
     while True:
         # Prompt the user for input
@@ -53,7 +54,7 @@ def main():
         if user_input.lower() == 'exit':
             print("Program exited.")
             break
-
+        
         # Check if input exists in responses1 dictionary
         if user_input in responses1:
             print(f"Personal ID: {responses1[user_input]}")
@@ -67,7 +68,7 @@ def main():
             print("He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
 
         # If the player is not found
-        else:
+        if user_input not in responses1:
             print(f"The player does not exist: {user_input}")
 
 if __name__ == "__main__":
