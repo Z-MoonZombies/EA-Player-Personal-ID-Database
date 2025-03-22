@@ -32,7 +32,7 @@ def main():
         "ExoticArrowww2": "1004037833985",
         "jigglyjoe15": "1004037833985",
         "shoushou1107": "1007264158402",
-        "EyjaAlcremieCake": "1006692340632"
+        "EyjaAlcremieCake": "1006692340632",
     }
 
     responses2 = {
@@ -45,7 +45,13 @@ def main():
     "ID_M_GOAT": "Mobile phone number: 13926000527 Mother: Shu Hongbin Mobile phone: 13926000527 ID: 310102196704024448 Address: Room 907, Taole Building, No. 12, Dashatou 2nd Road, Dongshan District, Guangzhou",
     "Z-MoonCake": "Mobile phone number: 15143605298 Name: Yu Anghan ID number: 220802200706261813",
     "PingsQAQ": "Mobile phone number:17768616034"
-   }
+    }
+
+    responses3 = {
+    "Goat": "ID_M_GOAT",
+    "goat": "ID_M_GOAT"
+    }
+        
     while True:
         # Prompt the user for input
         user_input = input("Please enter player ID (type 'exit' to quit): ")
@@ -61,15 +67,19 @@ def main():
 
         # Check if input exists in responses2 dictionary
         if user_input in responses2:
-            print(f"More information: {responses2[user_input]}")
+            print(f"{user_input}"f" More information: {responses2[user_input]}")
+
+        # Check if input exists in responses3 dictionary
+        if user_input in responses3:
+            print(f"{user_input}"f" EA id is: {responses3[user_input]}") 
 
         # Special case for specific users
         if user_input == "shoushou1106" or user_input == "shoushou1107":
             print("He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
 
-        # If the player is not found
-        if user_input not in responses1:
+        # If the player is not found in responses1 and responses3
+        if user_input not in responses1 and user_input not in responses3:
             print(f"The player does not exist: {user_input}")
-
+            
 if __name__ == "__main__":
     main()
