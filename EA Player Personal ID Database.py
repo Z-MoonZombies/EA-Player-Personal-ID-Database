@@ -37,9 +37,14 @@ def main():
 
     responses2 = {
     "NQZ21": "ID number: 210106201002240336 Name: Zhou Yuze",
-    "MinecraftLionxX": "Real name: Liu Ruoyu Mobile phone number: 13836053660 Company name: Harbin World Department Store Shufang Knitting Children's Wear Boutique"
-    }
-
+    "MinecraftLionxX": "Real name: Liu Ruoyu Mobile phone number: 13836053660 Company name: Harbin World Department Store Shufang Knitting Children's Wear Boutique",
+    "shoushou1106": "His address: https://maps.app.goo.gl/omZoS3nmmkiHCkEYA",
+    "zkzkqwq": "Mobile phone number: 15060329999 Real name: Zheng Kai",
+    "Dengisback": "Mobile phone number: 18701806469 ID card: 310113200508162411 Gender: Male Name: Deng Shuai",
+    "CORROME": "Mobile phone number: 15966777230",
+    "ID_M_GOAT": "Mobile phone number: 13926000527 Mother: Shu Hongbin Mobile phone: 13926000527 ID: 310102196704024448 Address: Room 907, Taole Building, No. 12, Dashatou 2nd Road, Dongshan District, Guangzhou",
+    "Z-MoonCake": "Mobile phone number: 15143605298 Name: Yu Anghan ID number: 220802200706261813"
+   }
     while True:
         # Prompt the user for input
         user_input = input("Please enter player ID (type 'exit' to quit): ")
@@ -58,7 +63,7 @@ def main():
             print(f"More information: {responses2[user_input]}")
 
         # Special case for specific users
-        elif user_input == "shoushou1106" or user_input == "shoushou1107":
+        if user_input == "shoushou1106" or user_input == "shoushou1107":
             print("He is a pedophile supporter https://youtu.be/DKL4-pM9mNM")
 
         # If the player is not found
