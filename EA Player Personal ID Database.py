@@ -49,7 +49,11 @@ def main():
 
     responses3 = {
     "Goat": "ID_M_GOAT",
-    "goat": "ID_M_GOAT"
+    "goat": "ID_M_GOAT",
+    "Lion": "MinecraftLionxX",
+    "lion": "MinecraftLionxX",
+    "Nier": "DSkD-PopCap-GT3",
+    "nier": "DSkD-PopCap-GT3"
     }
         
     while True:
