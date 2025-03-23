@@ -37,7 +37,12 @@ def main():
         "D4AeS86": "1872463991",
         "yunkai335": "1007813659069",
         "Qiu_Bai_SKDF": "1004699201316",
-        "moritietou": "1005350447156"
+        "moritietou": "1005350447156",
+        "Crz_XI4I3-954": "1003872739852",
+        "YokoCrossbow": "1691149050",
+        "ID_CR_BOOTFLOW": "1005791905282",
+        "OverwatchEsBasur": "1005601042300",
+        "Semphire": "1573020839",
     }
 
     responses2 = {
@@ -49,7 +54,10 @@ def main():
     "CORROME": "Mobile phone number: 15966777230",
     "ID_M_GOAT": "Mobile phone number: 13926000527 Mother: Shu Hongbin Mobile phone: 13926000527 ID: 310102196704024448 Address: Room 907, Taole Building, No. 12, Dashatou 2nd Road, Dongshan District, Guangzhou",
     "Z-MoonCake": "Mobile phone number: 15143605298 Name: Yu Anghan ID number: 220802200706261813",
-    "PingsQAQ": "Mobile phone number:17768616034"
+    "PingsQAQ": "Mobile phone number:17768616034",
+    "Eills": "Father: Zhang Bing ID card: 321121198505205917 Myself: Zhang Zhixing ID card: 321112201103130017",
+    "yunkai335": "Mobile phone number: 15950030727 Real name: Liu Yunchi",
+    "ssy4399": "Mobile phone number: 16622100186"
     }
 
     responses3 = {
@@ -58,7 +66,8 @@ def main():
     "Lion": "MinecraftLionxX",
     "lion": "MinecraftLionxX",
     "Nier": "DSkD-PopCap-GT3",
-    "nier": "DSkD-PopCap-GT3"
+    "nier": "DSkD-PopCap-GT3",
+    "4399": "ssy4399"
     }
         
     while True:
